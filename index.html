@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylehome.css">
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+				font-family: 'Josefin Sans', sans-serif;
+			}
+	    /* Make the image fully responsive */
+		  .carousel-inner img {
+		    width: 100%;
+		    height: 100%;
+		  }
+		</style>
+	<title>CustomCars Bootstrap</title>
+</head>
+<body>
+
+<header>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" id="logo" href="#">SHEHROZ'RAMZAN</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link mb_font" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mb_font" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle mb_font" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item mb_font" href="#">Action</a>
+          <a class="dropdown-item mb_font" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item mb_font" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled mb_font" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-warning my-2 my-sm-0 mb_font" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- end NAVBAR -->
+
+<!-- SLIDER -->
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/car1.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Lamborghini</h3>
+        <p>This is such a great Car!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/car2.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Benz</h3>
+        <p>The Best ... Cars!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/car3.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>La Ferrari</h3>
+        <p>We all love this One!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<!-- end SLIDER -->
+
+</header>
+
+<!-- ABOUT-US -->
+
+<section>
+	
+	<div class="container-fluid">
+		<h1 class="text-center text-capitalize pt-5 ph_font" id="auc">about us</h1>
+		<hr class="w-25 mx-auto pt-5">
+
+		<div class="row mb-5">
+			<div class="col-lg-6 col-md-6 col-12">
+				<img src="images/car4.jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-6 col-md-6 col-12">
+				<h1 class="font-weight-bold">Who Am I ?</h1>
+				<hr class="w-50 mx-0">
+				<p class="text-justify para_font">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Eaque magnam perferendis porro asperiores maiores in animi sequi sit cupiditate tempore culpa rem dignissimos incidunt reiciendis libero dolores quae, fuga optio ullam. Et animi odit dicta dolor, quo sed labore, voluptatem a odio voluptatibus, natus libero! Iure ad consequuntur, aut quod placeat, doloremque error quas Lorem ipsum dolor sit.</p>
+				<button class="btn btn-warning text-gray-dark mb_font">Wanna know me</button>
+			</div>
+			
+		</div>
+		
+	</div>
+
+</section>
+<!-- end ABOUT-US -->
+
+<!-- SERVICES -->
+
+<section>
+
+	<div class="container">
+		<h1 class="text-center text-capitalize ph_font" id="sc">services</h1>
+		<hr class="w-25 mx-auto pt-5">
+
+		<div class="row text-center mb-5">
+			
+		  <div class="col-lg-4 col-md-4 col-12">
+			<div class="card">
+			  <img class="card-img-top" src="images/card1.JPG" alt="Card image">
+			  <div class="card-body">
+			    <h4 class="card-title">Awais Ahmed</h4>
+			    <p class="card-text">Very best friend of mine.</p>
+			    <a href="#" class="btn btn-warning">See Profile</a>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="col-lg-4 col-md-4 col-12">
+			<div class="card">
+			  <img class="card-img-top" src="images/card2.JPG" alt="Card image">
+			  <div class="card-body">
+			    <h4 class="card-title">Shehroz Ramzan</h4>
+			    <p class="card-text">Myself Showing off in Glasses.</p>
+			    <a href="#" class="btn btn-warning">See Profile</a>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="col-lg-4 col-md-4 col-12">
+			<div class="card">
+			  <img class="card-img-top" src="images/card3.JPG" alt="Card image">
+			  <div class="card-body">
+			    <h4 class="card-title">Umer Awan</h4>
+			    <p class="card-text">Also very best friend of mine.</p>
+			    <a href="#" class="btn btn-warning">See Profile</a>
+			  </div>
+			</div>
+		  </div>
+		
+		</div>
+		
+	</div>
+
+</section>
+<!-- end SERVICES -->
+
+<!-- CONTACT-NUMBER -->
+
+<section class="bg_cngradient mb-5">
+	
+	<article class="text-center py-5 text-capitalize text-white">
+
+		<div>
+			<h1 class="display-4">+92 32112365489</h1>
+			<p>for best web designs you can call us</p>
+			<div class="car_drive">
+				<img src="images/running.gif" alt="car">
+			</div>
+			<button class="btn btn-danger mb_font">Contact Now</button>
+		</div>
+	
+	</article>
+
+</section>
+<!-- end CONTACT-NUMBER -->
+
+<!-- GALLERY -->
+
+<section>
+	
+	<div class="container">
+		<h1 class="text-center text-capitalize ph_font">gallery</h1>
+		<hr class="w-25 mx-auto pt-5">
+
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-12 mb-5">
+				<img src="images/car1.jpg" alt="car" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-12 mb-5">
+				<img src="images/car2.jpg" alt="car" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-12 mb-5">
+				<img src="images/car3.jpg" alt="car" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-12 mb-5">
+				<img src="images/car4.jpg" alt="car" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-12 mb-5">
+				<img src="images/car1.jpg" alt="car" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-12 mb-5">
+				<img src="images/car2.jpg" alt="car" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+				<img src="images/car3.jpg" alt="car" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+				<img src="images/car4.jpg" alt="car" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+				<img src="images/car1.jpg" alt="car" class="img-fluid">
+			</div>
+			
+		</div>
+
+	</div>
+
+</section>
+<!-- end GALLERY -->
+
+<!-- WANT-TO-JOIN -->
+
+<section class="bg_wtjgradient my-5">
+
+	<article class="py-5">
+
+		<div class="text-center text-capitalize text-white">
+			<h1 class="display-4">want to join</h1>
+			<p>be a part of our website :)</p>
+			<button class="btn btn-danger mb_font" data-toggle="modal" data-target="#myModal">Join Now</button>
+		</div>
+
+		<!-- The Modal -->
+		  <div class="modal fade" id="myModal">
+		    <div class="modal-dialog modal-dialog-centered">
+		      <div class="modal-content">
+		      
+		        <!-- Modal Header -->
+		        <div class="modal-header">
+		          <h4 class="modal-title">SignUp</h4>
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        </div>
+		        
+		        <!-- Modal body -->
+		        <div class="modal-body">
+		            <form action="/action_page.php">
+					  <div class="form-group">
+					    <label for="email">Email address:</label>
+					    <input type="email" class="form-control" placeholder="Enter email" id="email">
+					  </div>
+					  <div class="form-group">
+					    <label for="pwd">Password:</label>
+					    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+					  </div>
+					  <div class="form-group form-check">
+					    <label class="form-check-label">
+					      <input class="form-check-input" type="checkbox"> Remember me
+					    </label>
+					  </div>
+					  <button type="submit" class="btn btn-warning text-white mb_font">Submit</button>
+					</form> 
+		        </div>
+		        
+		        <!-- Modal footer -->
+		        <div class="modal-footer">
+		          <button type="button" class="btn btn-secondary mb_font" data-dismiss="modal">Close</button>
+		        </div>
+		        
+		      </div>
+		    </div>
+		  </div>
+		
+	</article>
+
+</section>
+<!-- end WANT-TO-JOIN -->
+
+<!-- CONTACT-US-FORM -->
+
+<section>
+
+	<div class="container">
+		<h1 class="text-center text-capitalize ph_font">contact us</h1>
+		<hr class="w-25 mx-auto pt-5">
+
+		<div class="w-50 mx-auto">
+			<form action="/action_page.php">
+			  <div class="form-group">
+			    <label for="fname">First Name:</label>
+			    <input type="text" class="form-control" placeholder="Enter first name" id="name">
+			  </div>
+			  <div class="form-group">
+			    <label for="lname">Last Name:</label>
+			    <input type="text" class="form-control" placeholder="Enter last name" id="lname">
+			  </div>
+			  <div class="form-group">
+			    <label for="email">Email Address:</label>
+			    <input type="email" class="form-control" placeholder="Enter email" id="email">
+			  </div>
+			  <div class="form-group">
+			    <label for="number">Mobile no:</label>
+			    <input type="number" class="form-control" placeholder="Enter number" id="number">
+			  </div>
+			  <div class="form-group form-check">
+			    <label class="form-check-label">
+			      <input class="form-check-input" type="checkbox"> Remember me
+			    </label>
+			  </div>
+			  <button type="submit" class="btn btn-danger mb_font">Submit</button>
+			</form>
+		</div>
+		
+	</div>
+	
+</section>
+<!-- end CONTACT-US-FORM -->
+
+<!-- FOOTER -->
+
+<footer>
+
+	<p class="text-center bg-dark text-white mt-5">@copyrights reserved SHEHROZRAMZAN.com 2020</p>
+
+</footer>
+<!-- end FOOTER -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
